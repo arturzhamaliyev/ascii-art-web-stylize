@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascii-art</title>
+    <link rel="stylesheet" href="./ui/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="glitch" data-text="ascii&nbsp;art">ascii&nbsp;art</div>
+            <div class="glow">ascii&nbsp;art</div>
+            <p class="subtitle">2077</p>
+        </div>
+     
+        <form class="form" method="POST" action="/ascii-art">
+            <textarea class="input" name="input" cols="20" rows="5" spellcheck="false"></textarea>
+            <div class="btns">
+                <button type="submit" class="buttons st-btn" value="standard" name="font">standard</button>
+                <button type="submit" class="buttons sh-btn" value="shadow" name="font">shadow</button>
+                <button type="submit" class="buttons th-btn" value="thinkertoy" name="font">thinkertoy</button>
+            </div>
+        </form>
+    </div>
+    <pre>{{.}}</pre>
+</body>
+</html>
