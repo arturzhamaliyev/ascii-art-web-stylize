@@ -9,6 +9,6 @@ Ascii-art-web consists in creating and running a server, in which it will be pos
 
 ## Usage
 
-- go run cmd/main.go
+- go run crc/main.go
 - open http://localhost:8080/
 - enter text in field in order to get your ascii-art
